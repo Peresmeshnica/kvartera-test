@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 header {
+    margin-bottom: 4em;
+}
+
+nav {
     background-color: #6ac5be;
-    width: auto;
-    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+h4 {
+    color: #f1592a;
+
+}
+
+.green-line {
+    background-color: #419192;
+    height: 0.5em;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+
+.section-buy span {
+    color: #f1592a
+}
+
+.section-buy ul {
+    padding-left: 1em;
+}
+
+.section-profit p {
+    font-size: 15pt;
+
+}
+
+.section-profit i {
+    font-size: 1.5em;
+}
+
+.section-profit span {
+    color: #f1592a;
+    font-size: 23pt;
+    font-weight: 450;
+    margin: 0;
+    padding: 0;
 }

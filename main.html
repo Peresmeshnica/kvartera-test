@@ -13,217 +13,224 @@
 </head>
 
 <body>
-    <header id="header" style="margin-bottom: 28px;">
-        <nav class="navbar navbar-expand-lg">
+    <header class="container">
+        <!-- зеленая шапка -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Main navigation">
             <div class="container">
-                <div class="collapse navbar-collapse" id="navContent">
-                    <ul class="navbar-nav mr-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> Меню
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-1 my-lg-0">
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><u>Вход на сайт</u></a>
+                            <a href="#" class="nav-link">Вход на сайт</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><u>Регистрация</u></a>
+                            <a href="#" class="nav-link">Регистрация</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><u>Партнерство</u></a>
+                            <a href="#" class="nav-link">Партнерство</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><u>О компании</u></a>
+                            <a href="#" class="nav-link">О компании</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><u>Контакты</u></a>
+                            <a href="#" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav " style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Напишите нам:</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link" style="margin-left: 300px;">
-                                <i class="bi bi-telephone-fill"></i> <u>8 800 215 00 50</u></a>
+                            <a href="#" class="nav-link"> <i class="bi bi-telephone-fill"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><u>Напишите нам:</u></a>
+                            <a href="#" class="nav-link"><i class="bi bi-whatsapp"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"> <i class="bi bi-whatsapp"></i><u>WhatsApp</u></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link"> <i class="bi bi-telegram"></i><u>Telegram</u></a>
+                            <a href="#" class="nav-link"><i class="bi bi-telegram"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="container" style="width: auto; margin-bottom: 20px;">
+
+    <section class="container">
         <div class="row align-items-center">
-            <div class="col-3">
-                <img src="img/logo.png" class="img-fluid" alt="Логотип">
+            <div class="col-12 mt-sm-4 text-center col-lg-4">
+                <img src=" img/logo.png" class="logo" alt="Логотип сайта">
             </div>
-            <div class="col-4"></div>
-            <div class="col text-center">
+            <div class="col-12 mt-sm-4 text-center col-lg-1 col-sm-12 offset-md-3">
                 <h6>Красноярск</h6>
             </div>
-            <div class="col-2 text-center">
+            <div class="col-12 mt-sm-4 text-center col-lg-2 col-sm-12">
                 <h6>Санкт-Петербург</h6>
             </div>
-            <div class="col text-start">
+            <div class="col-12 mt-sm-4 text-center col-lg-1 col-sm-12">
                 <h6>Москва</h6>
             </div>
-            <div class="col text-center">
+            <div class="col-12 mt-sm-4 text-center col-lg-1 col-sm-12">
                 <h6>Владивосток</h6>
             </div>
         </div>
     </section>
 
-    <section class="container-fluid"
-        style="background-color: #419192; height: 6px; margin-top: 40px; margin-bottom: 16px; width: 100%;">
-        <!-- зеленая линия -->
+    <div class="green-line">
+        <section class="container-fluid">
+            <!-- зеленая линия -->
+        </section>
+    </div>
+    <section class="container-fluid">
+        <!-- Слайдер-->
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel carousel-dark slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/baner-1.jpg" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/baner-1.jpg" class="d-block " alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
     </section>
 
-    <div class="container" style="margin-bottom: 40px;">
-        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/baner-1.jpg" class="d-block" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/baner-1.jpg" class="d-block " alt="...">
+    <section>
+        <!-- Купи квартиру + видео-->
+        <div class="section-buy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-auto col-md-6 mt-sm-4">
+                        <h1>Купи квартиру не оплачивая комиссионные риэлтору и получи кеш-бонус!</h1>
+                        <br>
+                        <p>Мы команда <span><b>КвартЭра.Ru</b></span></p>
+                        <ul>
+                            <li>профессиональные риэлторы</li>
+                            <li>надежные застройщики</li>
+                            <li>высококвалифицированные кредитные брокеры</li>
+                            <li>сотрудники банков</li>
+                        </ul>
+                        <br>
+                    </div>
+
+                    <div class="col-12 mt-md-4 col-xl-5">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="620" height="366" src="https://www.youtube.com/embed/DPkG1yKNhE8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Предыдущий</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Следующий</span>
-            </button>
         </div>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Почему мы?</h1>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div class="green-line">
+        <section class="container-fluid">
+            <!-- зеленая линия -->
+        </section>
     </div>
 
-    <div class="container" style="width: auto;">
-        <div class="row" style="margin-bottom: 26px;">
-            <div class="col-6">
-                <h1>Купи квартиру<br> не оплачивая комиссионные<br> риэлтору и получи кеш-бонус!</h1>
-                <br>
-                <p>Мы команда <span style="color: #f1592a"><b>КвартЭра.Ru</b></span></p>
-                <ul style="padding-left: 20px;">
-                    <li>профессиональные риэлторы</li>
-                    <li>надежные застройщики</li>
-                    <li>высококвалифицированные кредитные брокеры</li>
-                    <li>сотрудники банков</li>
-                </ul>
-                <br>
-                <h1>Почему мы?</h1>
-            </div>
 
-            <div class=" col-5">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="620" height="366" src="https://www.youtube.com/embed/DPkG1yKNhE8"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+    <!-- "Почему мы?" -->
+    <div class="section-profit">
+        <div class="container">
+            <div class="row align-items-start">
+                <!-- "Почему мы? - первая часть" -->
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2">
+                        <i class="bi bi-check2-circle"></i>
+                        <span> 15 лет на рынке</span>
+                        <p>Колоссальный опыт обеспечивает юридическую надежность и быстроту самых сложных сделок</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2">
+                        <i class="bi bi-people"></i>
+                        <span>Индивидуальный подход</span>
+                        <p>Учитываем жизненную ситуацию каждого клиента. Подбираем оптимальное решение</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2">
+                        <i class="bi bi-shield-check"></i>
+                        <span>Надежные застройщики</span>
+                        <p>Подберем объект недвижимости на самых лучших условиях на всей территории РФ и Крыма.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2">
+                        <i class="bi bi-chat-heart"></i>
+                        <span>Забота о клиенте</span>
+                        <p>Сопровождаем вашу ипотеку до полного закрытия. Организуем аренду инвестиционной квартиры.</p>
+                    </div>
+                </div>
+                <!-- "Почему мы? - вторая часть" -->
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2">
+                        <i class="bi bi-cloud-check"></i>
+                        <span>Дистанционное обслуживание</span>
+                        <p>Работаем удаленно по всей территории РФ и Крыма, полное юридическое сопровождение на всех
+                            этапах сделки.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2 mb-3">
+                        <i class="bi bi-bank"></i>
+                        <span>Сотрудничество
+                            с 20 банками</span>
+                        <p>Гарантия самых низких ставок по ипотеке, субсидированная ставка от 0,1%.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2 mb-3">
+                        <i class="bi bi-piggy-bank"></i>
+                        <span>Кеш-бонус,
+                            акции и скидки</span>
+                        <p>При покупки квартиры получаете кеш-бонус живым деньгами.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 gy-3 col-md-6 col-xl-3 text-center">
+                    <div class="fs-2 mb-3">
+                        <i class="bi bi-emoji-smile"></i>
+                        <span>Партнерство,
+                            бонус от друзей</span>
+                        <p>Можете стать нашим партнером и получать дополнительный доход.</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div> <!-- Почему мы?-конец -->
+    <div class="green-line">
+        <section class="container-fluid">
+            <!-- зеленая линия -->
+        </section>
     </div>
-    <section class="container-fluid" style="background-color: #419192; height: 6px; margin-bottom: 54px; width: 100%;">
-        <!-- зеленая линия -->
-    </section>
 
-    <div class="container" style="margin-bottom: 30px;">
-        <!-- "Почему мы? - первая часть" -->
-        <div class="row align-items-center">
-            <div class="col-1" style="text-align: right;">
-                <img src="img/check.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">15 лет<br>на рынке</h4>
-            </div>
-            <div class="col-1" style="text-align: right;">
-                <img src="img/people.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">Индивидуальный<br>подход</h4>
-            </div>
-            <div class="col-1" style="text-align: right;">
-                <img src="img/shield.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">Надежные<br>застройщики</h4>
-            </div>
-            <div class="col-1" style="text-align: right;">
-                <img src="img/like.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">Забота<br>о клиенте</h4>
-            </div>
-        </div>
 
-        <div class="row align-items-center" style="font-size: 15px; padding-top: 5px;">
-            <div class="col-3" style="text-align: center;">
-                <p>Колоссальный опыт обеспечивает <br> юридическую надежность и быстроту <br>самых сложных сделок</p>
-            </div>
-            <div class="col-3" style="text-align: center;">
-                <p>Учитываем жизненную ситуацию каждого<br> клиента. Подбираем оптимальное<br> решение</p>
-            </div>
-            <div class="col-3" style="text-align: center;">
-                <p>Подберем объект недвижимости на<br> самых лучших условиях на всей<br> территории РФ и Крыма.</p>
-            </div>
-            <div class="col-3" style="text-align: center;">
-                <p>Сопровождаем вашу ипотеку до полного <br>закрытия. Организуем аренду<br> инвестиционной квартиры.</p>
-            </div>
-        </div>
-    </div> <!-- "Почему мы? - конец первой части" -->
 
-    <div class="container" style="margin-bottom: 50px;">
-        <!-- "Почему мы? - вторая часть" -->
-        <div class="row align-items-center">
-            <div class="col-1" style="text-align: right;">
-                <img src="img/cloud.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">Дистанционное<br>обслуживание</h4>
-            </div>
-            <div class="col-1" style="text-align: right;">
-                <img src="img/bank.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">Сотрудничество<br>с 20 банками</h4>
-            </div>
-            <div class="col-1" style="text-align: right;">
-                <img src="img/pig.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">Кеш-бонус,<br>акции, скидки</h4>
-            </div>
-            <div class="col-1" style="text-align: right;">
-                <img src="img/smile.png" alt="галочка" style="margin: 0; padding: 0;">
-            </div>
-            <div class="col-2" style="text-align: center;">
-                <h4 style="color: #f1592a; text-align: left; padding-top: 5px;">Партнерство,<br>бонус от друзей</h4>
-            </div>
-        </div>
-
-        <div class="row align-items-center" style="font-size: 15px; padding-top: 5px;">
-            <div class="col-3" style="text-align: center;">
-                <p>Работаем удаленно по всей территории<br> РФ и Крыма, полное юридическое<br> сопровождение на всех
-                    этапах сделки.</p>
-            </div>
-            <div class="col-3" style="text-align: center;">
-                <p>Гарантия самых низких ставок по<br> ипотеке, субсидированная ставка от 0,1%.</p>
-            </div>
-            <div class="col-3" style="text-align: center;">
-                <p>При покупки квартиры получаете<br> кеш-бонус живым деньгами.</p>
-            </div>
-            <div class="col-3" style="text-align: center;">
-                <p>Можете стать нашим партнером и<br> получать дополнительный доход.</p>
-            </div>
-        </div>
-    </div> <!-- "Почему мы? - конец второй части" -->
-
-    <section class="container-fluid" style="background-color: #419192; height: 6px; margin-bottom: 54px; width: 100%;">
-        <!-- зеленая линия -->
-    </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
