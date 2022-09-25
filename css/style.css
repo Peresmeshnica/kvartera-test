@@ -2,6 +2,7 @@
 
 header {
     margin-bottom: 4em;
+    font-size: 13pt;
 }
 
 nav {
@@ -17,10 +18,14 @@ h4 {
 
 }
 
+h6 {
+    font-size: 15pt;
+}
+
 .green-line {
     background-color: #419192;
     height: 0.5em;
-    margin-top: 2.5em;
+    margin-top: 3em;
     margin-bottom: 0.5em;
     width: 100%;
 }
@@ -38,8 +43,29 @@ h4 {
 
 }
 
+.section-buy p {
+    font-size: 16pt;
+}
+
 .section-buy ul {
     padding-left: 1em;
+    font-size: 16pt;
+}
+
+.thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .section-profit p {
@@ -58,4 +84,149 @@ h4 {
     font-weight: 450;
     margin: 0;
     padding: 0;
+}
+
+.hot-deald {
+    background-color: #fecaa2;
+}
+
+.hot-deald h1 {
+    font-size: 35pt;
+}
+
+.hot-deald span {
+    color: #13484e;
+}
+
+@media screen and (max-width: 1800px) {
+    .call {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+.call img {
+    width: 20em;
+    height: 21em;
+}
+
+.btn-color button {
+    background-color: #f1592a;
+    border: #f1592a;
+}
+
+.btn-color {
+    font-size: 18pt;
+}
+
+.city-card {
+    font-size: 12pt;
+}
+
+.city-card img {
+    border-radius: 20px 20px 0 0;
+}
+
+.city-card h1 {
+    font-size: 18pt;
+}
+
+.city-card span {
+    color: #f1592a;
+}
+
+.money {
+    background-color: #fc9c74;
+    color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    margin: 0;
+}
+
+.money p {
+    font-size: 13pt;
+}
+
+.money span {
+    color: #ffffff;
+    font-size: 11pt;
+
+}
+
+.nav-tabs>li>a {
+    color: #829597;
+}
+
+.nav-tabs>li>a:hover {
+    color: #f1592a !important;
+}
+
+.message p {
+    font-size: 16pt;
+    margin-top: 1em;
+}
+
+.message img {
+    margin-right: 1em;
+}
+
+.message a {
+    color: #335a5f;
+    font-size: 16pt;
+
+}
+
+.message-link a {
+    font-size: 16pt;
+    color: #335a5f;
+}
+
+.message-link img {
+    margin-right: 0.5em;
+}
+
+.message-link li {
+    margin-right: 4em;
+}
+
+.fot-nav {
+    background-color: #6ac5be;
+}
+
+.fot-nav h6 {
+    margin-top: 2em;
+    color: #13484e;
+    font-size: 18pt;
+    margin-bottom: 1em;
+}
+
+.fot-nav p {
+    margin: 0.5em;
+}
+
+.fot-nav a {
+    font-size: 14pt;
+    color: #fff;
+}
+
+.part h6 {
+    margin-top: 3em;
+}
+
+.fon-fyt {
+    background-color: #33898a;
+}
+
+.fon-fyt h3 {
+    color: #fff;
+    font-size: 26pt;
+}
+
+.fon-fyt p {
+    color: #fff;
+    font-size: 16pt;
+}
+
+.end-block p {
+    color: #fff;
+    font-size: 16pt;
 }
