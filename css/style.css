@@ -3,15 +3,12 @@
 body {
     font-size: 16px;
 }
-
 .nav-tabs>li>a {
     color: #829597;
 }
-
 .navbar-nav>li>a:hover {
     color: #f1592a !important;
 }
-
 .line {
     border-right: 2px solid #8d8d8d;
     margin-right: 10px;
@@ -19,25 +16,26 @@ body {
     margin-top: 5px;
     height: 30px;
 }
+header {
+    margin-bottom: 4em;
 
+}
 nav {
     background-color: #6ac5be;
 }
-
 h1 {
     font-size: 2.5em;
 }
-
 h4 {
     color: #f1592a;
 }
-
 h5 {
     font-size: 2.5em;
 }
-
 h6 {
     font-size: 1.3em;
+
+    font-weight: normal;
 }
 
 .green-line {
@@ -82,13 +80,10 @@ h6 {
 
 .section-profit p {
     padding: 0;
-
 }
-
 .section-profit i {
     font-size: 2.5em;
 }
-
 .section-profit span {
     color: #f1592a;
     font-weight: 450;
@@ -154,7 +149,7 @@ h6 {
 
 .money span {
     color: #ffffff;
-    font-size: 11pt;
+    font-size: 0.6em;
 
 }
 
