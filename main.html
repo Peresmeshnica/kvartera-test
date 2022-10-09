@@ -16,11 +16,11 @@
 <body>
     <header>
         <!-- зеленая шапка -->
-        <nav class="navbar navbar-expand-lg navbar-light" aria-label="Main navigation">
+        <nav class="navbar navbar-expand-lg navbar-light py-1 top-menu " aria-label="Main navigation">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span> Меню
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarScroll">
@@ -49,7 +49,7 @@
                         </li>
                         <li class="line nav-item">
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-none d-xl-block">
                             <a href="#" class="nav-link">Напишите нам:</a>
                         </li>
                         <li class="nav-item">
@@ -61,34 +61,36 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav>   
+
+        <section class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 my-3 text-lg-start text-center">
+                    <img src=" img/logo.png" class="img-fluid" alt="Логотип сайта">
+                </div>
+                <div class="col-12 col-md-8 mt-4">
+                    <nav class="main-menu">
+                        <ul class="nav justify-content-center justify-content-md-end">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Красноярск</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Санкт-Петербург</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Москва</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Владивосток</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
     </header>
 
-    <section class="container">
-        <div class="row align-items-center">
-            <div class="col-12 mt-sm-4 col-lg-4 text-lg-start text-center">
-                <img src=" img/logo.png" class="logo" alt="Логотип сайта">
-            </div>
-            <div class="col-12 mt-sm-4 pt-4 text-center col-lg-2 col-sm-12 text-lg-end offset-lg-1">
-                <h6>Красноярск</h6>
-            </div>
-            <div class="col-12 mt-sm-4 pt-4 text-center col-lg-2 col-sm-12 text-lg-center">
-                <h6>Санкт-Петербург</h6>
-            </div>
-            <div class="col-12 mt-sm-4 pt-4  text-center col-lg-1 col-sm-12 text-lg-end">
-                <h6>Москва</h6>
-            </div>
-            <div class="col-12 mt-sm-4 pt-4 text-center col-lg-2 col-sm-12 text-lg-center">
-                <h6>Владивосток</h6>
-            </div>
-        </div>
-    </section>
-
-    <div class="green-line">
-        <section class="container-fluid">
-            <!-- зеленая линия -->
-        </section>
-    </div>
+    <hr class="border border-33898a border-4 opacity-100">
 
     <!-- Карусель-->
     <div class="container mt-4 slider">
