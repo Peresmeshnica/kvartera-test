@@ -44,6 +44,15 @@ h6 {
 
 i.bi {padding-right:0.4em;}
 
+
+.btn-warning {
+    color:white;
+    background-color: #f1592a;
+    border-color:#f1592a;
+}
+
+
+
 .border-33898a {border-color: #33898a !important;}
 
 
@@ -85,21 +94,9 @@ header {
 }
 
 
-.green-line {
-    background-color: #419192;
-    height: 0.5em;
-    margin-top: 3em;
-    margin-bottom: 0.5em;
-    width: 100%;
-}
 
-.green-line1 {
-    background-color: #419192;
-    height: 0.5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    width: 100%;
-}
+
+
 
 .section-buy span {
     color: #f1592a;
@@ -137,17 +134,21 @@ header {
     line-height: 1.2em;
 }
 
-.hot-deald {
+.feedback {
     background-color: #fecaa2;
+    color:black;
 }
-
-.hot-deald span {
-    color: #13484e;
-}
-
-.hot-deald p {
-    font-size: 1.1em;
-}
+    .feedback h5 {
+        font-size:40px;
+        font-weight: bolder;
+    }
+    .feedback strong {
+        color: #13484e;
+    }
+    .hfeedback p {
+        font-size: 18px;
+        color:#252525;
+    }
 
 @media screen and (max-width: 1380px) {
     .call {
@@ -156,14 +157,6 @@ header {
     }
 }
 
-.btn-color button {
-    background-color: #f1592a;
-    border: #f1592a;
-}
-
-.btn-color {
-    font-size: 18pt;
-}
 
 .city-card {
     font-size: 0.8em;
