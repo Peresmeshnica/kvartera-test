@@ -199,14 +199,20 @@ header {
     color: #f1592a !important;
 }
 
-.message p {
-    margin-top: 1em;
-    font-size: 1.1em;
+.message {
+    color:black;
 }
-
-.message img {
-    margin-right: 1em;
-}
+    .message h5 {
+        font-size: 40px;;
+    }
+    .message p {
+        color:#252525;
+        margin-top: 1em;
+        font-size: 18px;
+    }
+    .message img {
+        margin-right: 1em;
+    }
 
 .message a {
     color: #335a5f;
