@@ -35,9 +35,6 @@ h4 {
     color: #f1592a;
 }
 
-h5 {
-    font-size: 2.5em;
-}
 
 h6 {
     font-size: 1.3em;
@@ -57,6 +54,35 @@ header {
     header .nav-link:hover {color: #f1592a !important;}
     header .top-menu {background-color: #6ac5be;}
     header .main-menu .nav-link {font-size:18px;color:#181818;}
+
+
+.hot-cards .card {
+    margin-top:1.5em;
+    border:none;
+}
+.hot-cards .card-img-top {
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+  }
+.hot-cards .card-footer:last-child {
+    border-radius: 0 0 1.25em 1.25em;
+    border-top:none;
+}
+.hot-cards a {color:black;text-decoration: none;}
+.hot-cards a:hover {color:#f1592a;text-decoration: underline;}
+.hot-cards .card-body p {
+    color:#6b6b6b;
+    font-size:14px;
+    margin-bottom:0;
+    margin-top:0.35em;}
+    .hot-cards .card-body p strong {
+        color:#f1592a;
+    }
+.hot-cards .card-footer {
+    color:white;
+    background-color: #fc9c74;
+    font-size:14px;
+}
 
 
 .green-line {
